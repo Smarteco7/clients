@@ -1,0 +1,44 @@
+body{
+    background-image: url(../img/w2.jpg);
+}
+.house{
+    display:flex;
+    justify-content: center;
+}
+.container{
+    background: rgba(95, 101, 209, 0.384); 
+    height: 450px; 
+    width: 40%;
+    margin-top: 8%;
+}
+h2{
+    color: white;
+    margin-left: 35%;
+}
+h4{
+    color:white;
+    padding-left: 23%;
+}
+#messageInput{
+    width: 28rem;
+    height: 14rem;
+    border: 0 0 4px 0 solid black;
+    background-color: transparent;
+    color: white;
+    margin: 5px 0 0 8%;
+}
+.button{
+    width: 29rem;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 5%;
+    margin-left: 8%;
+    color: white;
+    background-color: black;
+    justify-content: center;
+}
+/* */
+.button:hover{
+    cursor: pointer;
+}

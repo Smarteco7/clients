@@ -1,0 +1,27 @@
+body{
+    background-image: url(../img/w2.jpg);
+  }
+ .house{
+     display:flex;
+     justify-content: center;
+ }
+ .container{
+    background: rgb(163, 89, 219); 
+    height: 600px; 
+    width: 40%;
+    margin-top: 3%;
+}
+.metro{
+   margin-top: 13%;
+}
+h3{
+    margin-left: 43%;
+}
+.card{
+    background: black;
+    color: white;
+    text-align: center;
+    width: auto;
+    height: 40px;
+    padding: 0;
+}

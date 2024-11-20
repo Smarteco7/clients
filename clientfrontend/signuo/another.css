@@ -1,0 +1,44 @@
+
+body{
+    background-image: url(../img/w1.jpg);
+}
+.house{
+    display:flex;
+    justify-content: center;
+}
+.container{
+    background: rgb(95, 177, 209); 
+    height: 450px; 
+    width: 40%;
+    margin-top: 9%;
+}
+.signup{
+    margin-left: 45%;
+}
+.form-actions{
+    display:flex;
+    flex-direction: column;
+    margin: 10% 0 0 18%;
+}
+label{
+    text-decoration-color: gray;
+}
+input{
+    width: 80%;
+    height: 25px;
+    border-radius: 20px;
+    background: transparent;
+    border-color: black;
+}
+.button{
+    width: 90px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 5%;
+    color: white;
+     background-color: black;
+}
+.button:hover{
+    cursor: pointer;
+}
